@@ -13,11 +13,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>34_SBMS_Greet_API-1</name>
 	<description>Demo project for Spring Boot</description>
-	<properties>
-		<java.version>17</java.version>
-		<spring-boot-admin.version>3.2.1</spring-boot-admin.version>
-		<spring-cloud.version>2023.0.0</spring-cloud.version>
-	</properties>
+	
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
