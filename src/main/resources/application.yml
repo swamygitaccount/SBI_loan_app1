@@ -1,0 +1,20 @@
+
+spring:
+  application:
+    name: GREET-API
+
+management.endpoints.web.exposure.include: "*"
+  
+spring.boot.admin.client.url: http://localhost:1111
+  
+#spring.boot.admin.client.enabled : true
+#spring.boot.admin.client.auto-registration: true
+
+
+  
+#management.tracing.sampling.probability: 0.1
+  
+#logging.pattern.level: 5p [${spring.application.name:},%X{traceId:-},%X{spanId:-}]
+  
+  
+  
